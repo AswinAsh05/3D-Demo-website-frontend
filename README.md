@@ -15,9 +15,8 @@ A sleek and modern company landing page built with HTML, CSS, and Spline 3D inte
 
 ---
 
-## 📸 Preview
-
-![Preview Screenshot](./preview.png)  
+## 🌐 Live Demo  
+🔗 [Visit My Portfolio]](./preview.png)  
 
 
 ---
@@ -29,7 +28,5 @@ A sleek and modern company landing page built with HTML, CSS, and Spline 3D inte
 - JavaScript (AOS)  
 - Spline Viewer (WebGL 3D)
 
----
 
-## 📁 Project Structure
 
