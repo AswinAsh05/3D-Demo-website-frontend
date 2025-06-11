@@ -16,7 +16,7 @@ A sleek and modern company landing page built with HTML, CSS, and Spline 3D inte
 ---
 
 ## 🌐 Live Demo  
-🔗 [Visit My Portfolio](https://aswinash05.github.io/Demo-website-fntend/)  
+🔗 [Visit My Project](https://aswinash05.github.io/Demo-website-fntend/)  
 
 
 ---
