@@ -1,30 +1,30 @@
-<h1 align="center">🏢 APTcode - Demo Company Frontend Website</h1>
+<h1 align="center">🚀 APTcode - Demo Company Frontend Website</h1>
 
 <p align="center">
-  A modern, responsive landing page built with ❤️ using HTML, CSS, and integrated with a 3D robot via Spline.  
-  <br><br>
+  🔧 A sleek, modern & fully responsive landing page built with ❤️ using <strong>HTML</strong>, <strong>CSS</strong>, and a 3D robot from <a href="https://spline.design" target="_blank">Spline</a>.<br>
+  🎯 Optimized for all devices & powered by smooth scroll animations.<br><br>
 </p>
 
 ---
 
-## 🚀 Features
+## ✨ Features
 
-✅ Clean & modern UI with soft transitions  
-✅ Fully responsive and optimized for all screen sizes  
-✅ 3D robot animation using <a href="https://spline.design" target="_blank">Spline</a>  
-✅ Scroll animations powered by <a href="https://michalsnik.github.io/aos/" target="_blank">AOS.js</a>  
-✅ Contact section with direct links  
-✅ Easy to deploy on GitHub Pages 🚀  
+- 🎨 Clean & modern UI with smooth transitions  
+- 📱 Mobile-first & fully responsive  
+- 🤖 Embedded 3D Robot animation via <a href="https://spline.design" target="_blank">Spline</a>  
+- 🌀 Scroll reveal animations powered by <a href="https://michalsnik.github.io/aos/" target="_blank">AOS.js</a>  
+- 📫 Contact section with direct social links  
+- 🛠️ Ready-to-deploy on GitHub Pages  
 
 ---
 
 ## 🌐 Live Demo  
 
-🔗 **[Click Here to View the Live Project](https://aswinash05.github.io/Demo-website-fntend/)**  
+🔗 **[🚀 Click Here to View the Project](https://aswinash05.github.io/Demo-website-fntend/)**  
 
 ---
 
-## 🛠️ Tech Stack
+## 🧰 Tech Stack
 
 <p align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
@@ -37,19 +37,12 @@
 
 ## 📬 Contact Me
 
-📧 Email: [aswinash301102@gmail.com](mailto:aswinash301102@gmail.com)  
-💼 LinkedIn: [linkedin.com/in/aswinash05](https://www.linkedin.com/in/aswinash05)  
-🐙 GitHub: [github.com/AswinAsh05](https://github.com/AswinAsh05)
+- 📧 Email: [aswinash301102@gmail.com](mailto:aswinash301102@gmail.com)  
+- 💼 LinkedIn: [linkedin.com/in/aswinash05](https://www.linkedin.com/in/aswinash05)  
+- 🐙 GitHub: [github.com/AswinAsh05](https://github.com/AswinAsh05)
 
 ---
 
-## ⚖️ License
-
-This project is open-source under the [MIT License](LICENSE).
-
----
-
-> Made with 💻 by **Aswin Ash** ✨
-
-
-
+<p align="center">
+  💻 Built with dedication by <strong>Aswin Ash</strong> ✨
+</p>
