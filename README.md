@@ -3,7 +3,6 @@
 <p align="center">
   A modern, responsive landing page built with ❤️ using HTML, CSS, and integrated with a 3D robot via Spline.  
   <br><br>
-  <img src="./assets/robot.gif" alt="3D Robot Animation" width="400"/>
 </p>
 
 ---
@@ -34,6 +33,23 @@
   <img src="https://img.shields.io/badge/Spline-3D%20Design-orange?style=for-the-badge"/>
 </p>
 
+---
+
+## 📬 Contact Me
+
+📧 Email: [aswinash301102@gmail.com](mailto:aswinash301102@gmail.com)  
+💼 LinkedIn: [linkedin.com/in/aswinash05](https://www.linkedin.com/in/aswinash05)  
+🐙 GitHub: [github.com/AswinAsh05](https://github.com/AswinAsh05)
+
+---
+
+## ⚖️ License
+
+This project is open-source under the [MIT License](LICENSE).
+
+---
+
+> Made with 💻 by **Aswin Ash** ✨
 
 
 
