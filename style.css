@@ -1,0 +1,238 @@
+/* Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: #e7e7e7;
+    overflow-x: hidden;
+    line-height: 1.6;
+}
+
+.image-gradient {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0.4;
+    z-index: -2;
+    max-width: 100%;
+}
+
+.layer-blur {
+    height: 0;
+    width: 30rem;
+    position: absolute;
+    top: 20%;
+    right: 0;
+    box-shadow: 0 0 700px 15px white;
+    transform: rotate(-30deg);
+    z-index: -2;
+}
+
+.robot-3d {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: calc(100vw + 20px);
+    height: calc(100vh + 20px);
+    z-index: -1;
+    pointer-events: none;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    position: relative;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 1rem;
+    flex-wrap: wrap;
+    z-index: 10;
+}
+
+.logo {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+nav {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #999;
+}
+
+.btn-signing {
+    background-color: #e7e7e7;
+    color: black;
+    padding: 0.6rem 1.5rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-signing:hover {
+    background-color: white;
+    transform: translateY(-2px);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+    padding: 3rem 0;
+}
+
+.content {
+    max-width: 600px;
+    z-index: 10;
+}
+
+.tag-box {
+    background: linear-gradient(to right, #656565, #7f42a7, #6600c5, #5300a0, #757575);
+    border-radius: 30px;
+    width: fit-content;
+    padding: 4px;
+    margin-bottom: 1rem;
+    animation: animationGradient 4s linear infinite;
+    background-size: 200%;
+}
+
+.tag {
+    background-color: black;
+    border-radius: 25px;
+    padding: 0.4rem 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    color: white;
+}
+
+@keyframes animationGradient {
+    to {
+        background-position: 200%;
+    }
+}
+
+.content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.description {
+    color: #bbb;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    max-width: 90%;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.btn-get-started,
+.btn-signing-main {
+    text-decoration: none;
+    padding: 0.7rem 2rem;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.btn-get-started {
+    border: 1px solid #777;
+    color: white;
+}
+
+.btn-get-started:hover {
+    background-color: #1a1a1a;
+}
+
+.btn-signing-main {
+    background-color: #e7e7e7;
+    color: black;
+}
+
+.btn-signing-main:hover {
+    background-color: #ccc;
+}
+
+footer {
+    padding: 3rem 1rem;
+    background-color: #111;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+footer h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+footer a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav {
+        margin-top: 1rem;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .content h1 {
+        font-size: 2.2rem;
+    }
+
+    .btn-get-started,
+    .btn-signing-main {
+        font-size: 0.9rem;
+        padding: 0.6rem 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .content {
+        max-width: 100%;
+    }
+
+    .description {
+        font-size: 1rem;
+    }
+}
