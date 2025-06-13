@@ -20,7 +20,7 @@
 
 ## 🌐 Live Demo  
 
-🔗 **[🚀 Click Here to View the Project](https://aswinash05.github.io/Demo-website-fntend/)**  
+🔗 **[🚀 Click Here to View the Project](https://aswinash05.github.io/Demo-website-frontend/)**  
 
 ---
 
